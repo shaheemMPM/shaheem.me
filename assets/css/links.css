@@ -14,13 +14,13 @@ body {
   font-family: "Jost", sans-serif;
   background: linear-gradient(
     to bottom left,
-    #081421,
-    #0d2032,
+    #1f4a53,
     #295e64,
-    #1f4a53
+    #0d2032,
+    #081421
   );
   background-size: 400% 400%;
-  animation: change 10s ease-in infinite;
+  animation: change 20s ease-in infinite;
   padding: 30px;
 }
 
