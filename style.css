@@ -22,7 +22,7 @@ body {
 
 /*--------------- typewriter effect --------------- */
 .line {
-  width: 24em;
+  width: 28em; /* Adjusted width to accommodate the full sentence */
   top: 50%;
   margin: auto;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
@@ -33,8 +33,8 @@ body {
 }
 
 .anim-typewriter {
-  animation: typewriter 4s steps(40) 1s 1 normal both,
-    blinkTextCussor 500ms steps(40) infinite normal;
+  animation: typewriter 4s steps(65) 1s 1 normal both,
+    /* Adjusted steps value */ blinkTextCussor 500ms steps(65) infinite normal; /* Adjusted steps value */
 }
 
 @keyframes typewriter {
@@ -42,7 +42,7 @@ body {
     width: 0;
   }
   to {
-    width: 18em;
+    width: 21em; /* Adjusted width to match the final length of the sentence */
   }
 }
 
@@ -615,4 +615,19 @@ textarea:focus {
 
 .next p {
   text-align: right;
+}
+
+a.no-style-link {
+  text-decoration: none; /* Removes underline */
+  color: inherit;
+}
+
+a.no-style-link:hover {
+  text-decoration: none; /* Removes underline on hover */
+  color: inherit; /* Inherit the parent element's text color on hover */
+}
+
+a.no-style-link:active,
+a.no-style-link:focus {
+  outline: none; /* Removes the default focus outline */
 }
