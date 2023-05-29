@@ -8,8 +8,16 @@
         "destination": "/index.html"
       },
       {
+        "source": "/works",
+        "destination": "/works.html"
+      },
+      {
         "source": "/links",
         "destination": "/links.html"
+      },
+      {
+        "source": "**",
+        "destination": "/404.html"
       }
     ]
   }
