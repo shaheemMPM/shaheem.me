@@ -72,7 +72,7 @@ nav {
   background: #081421;
   height: 80px;
   position: fixed;
-  z-index: 1;
+  z-index: 400;
 }
 
 nav #brand {
@@ -125,7 +125,7 @@ nav #menu li a:hover {
   right: 30px;
   top: 20px;
   font-weight: 300;
-  z-index: 2;
+  z-index: 40;
   width: 30px;
   height: 30px;
   cursor: pointer;
@@ -139,14 +139,14 @@ nav #menu li a:hover {
   position: absolute;
   right: 16px;
   font-weight: 300;
-  z-index: 2;
+  z-index: 40;
   cursor: pointer;
   top: -2px;
   line-height: 80px;
 }
 
 #resize {
-  z-index: 1;
+  z-index: 400;
   top: 0px;
   position: fixed;
   background: #081421;
