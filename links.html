@@ -50,7 +50,24 @@
       <content>
         <h1>Mohammed Shaheem P</h1>
         <p>
-          23 year old software developer from Kerala, India 🇮🇳
+          <script>
+            const dateOfBirth = new Date("1999-07-16");
+
+            const today = new Date();
+            let age = today.getFullYear() - dateOfBirth.getFullYear();
+
+            if (
+              today.getMonth() < dateOfBirth.getMonth() ||
+              (today.getMonth() === dateOfBirth.getMonth() &&
+                today.getDate() < dateOfBirth.getDate())
+            ) {
+              age--;
+            }
+
+            document.write(
+              age + " year old software developer from Kerala, India 🇮🇳"
+            );
+          </script>
           <br />
           Building the future of B2B SaaS, reaching new horizons 🚀
         </p>
